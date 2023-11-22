@@ -1,0 +1,13 @@
+# possible values : production, development
+app_mode = production
+
+[paths]
+# Path to where grafana can store temp files, sessions, and the sqlite3 db (if that is used)
+data = /home/git/grafana
+
+[server]
+# Protocol (pulsar、)
+protocol       = pulsar
+# The http port  to use
+http_port      = 9999
+enforce_domain = false

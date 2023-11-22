@@ -1,11 +1,10 @@
-module v0
+module mqclient
 
 go 1.21.3
 
 require (
-	github.com/apache/pulsar-client-go v0.11.1
-	github.com/traefik/yaegi v0.15.1
-	gopkg.in/ini.v1 v1.67.0
+	github.com/apache/pulsar-client-go v0.11.0
+	github.com/streadway/amqp v1.1.0
 )
 
 require (
